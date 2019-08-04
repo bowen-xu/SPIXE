@@ -15,7 +15,9 @@ More documents will be published to describe the principles and designs of SPIXE
 
 Now the framework is in progress. In the first step, We will realize the Driver Layer without Distribution- and GPU-acceleration, which means it can only runs in a single processor. The three kinds of spiking networks will be implemented. After that, more improvement like parallel-acceleration, TCP/IP communications for remote simulations, dynamic parameter tuning and so on, will be coded. You may click *watch* button to follow our newest progress and attempt to use SPIXE as soon as the first edition is released. **Also you are welcome to join in**.
 
-If you have any questions, discuss in issues or directly contact me.
+In the preliminary stage, we prefer to use Visual Studio(2015) as IDE, but in the future the environment in Linux and MacOS will be also suitable.
+
+If you have any questions, please discuss in issues or directly contact me.
 
 ## contact
 
