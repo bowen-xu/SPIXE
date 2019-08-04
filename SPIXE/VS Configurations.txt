@@ -1,7 +1,7 @@
 输出目录
-SPIXE_Driver，SPIXE_Kernel：
+SPIXE_Driver，SPIXE_Kernel，SPIXE_User：
 $(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\
-SPIXE_User，Testsuites：
+Testsuites：
 $(SolutionDir)SPIXE\bin\$(Platform)\$(Configuration)\
 
 中间目录
@@ -37,4 +37,4 @@ $(SolutionDir)SPIXE\inc\testsuites\
 SPIXE_Driver：default
 SPIXE_Kernel：+SPIXE_Driver.lib
 SPIXE_User：+SPIXE_Kernel.lib
-Testsuites：+SPIXE_Driver.lib，SPIXE_Kernel.lib
+Testsuites：+SPIXE_Driver.lib，SPIXE_Kernel.lib，SPIXE_User.lib
