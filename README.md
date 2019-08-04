@@ -19,6 +19,6 @@ If you have any questions, discuss in issues or directly contact me.
 
 ## contact
 
-Author: Bowen Xu @ Peking University
+Author(s): Bowen Xu @ Peking University
 
 E-mail: xubowen@pku.edu.cn
