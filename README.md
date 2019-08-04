@@ -13,7 +13,9 @@ The framework SPIXE was in the beginning the undergraduate thesis project of the
 
 More documents will be published to describe the principles and designs of SPIXE to provide convenience for developers wishing to paticipate in to design and construct SPIXE. 
 
-If you have any questions, discuss in issues or dirctoly contact me.
+Now the framework is in progress. In the first step, We will realize the Driver Layer without Distribution- and GPU-acceleration, which means it can only runs in a single processor. The three kinds of spiking networks will be implemented. After that, more improvement like parallel-acceleration, TCP/IP communications for remote simulations, dynamic parameter tuning and so on, will be coded. You may click *watch* button to follow our newest progress and attempt to use SPIXE as soon as the first edition is released. **Also you are welcome to join in**.
+
+If you have any questions, discuss in issues or directly contact me.
 
 ## contact
 
