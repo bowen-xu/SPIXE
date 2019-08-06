@@ -39,8 +39,11 @@ TEST(TestSuite_Graph, TestCase_Store)
 	ASSERT_EQ(n1[1].num_postedges, 1);
 	ASSERT_EQ(n2[7].num_preedges, 1);
 
-
-
+	g.connect(n2, 2, 4);
+	ASSERT_EQ(n2[2].num_postedges, 1);
+	ASSERT_EQ(n2[4].num_preedges, 1);
+	
+	g.build();
 }
 
 
