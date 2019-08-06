@@ -19,7 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SPIXE\inc\testsuites\spixe_driver.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Graph.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Node.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Nodes.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Observer.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Population.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\spixe_driver_types.h" />
+    <ClInclude Include="..\SPIXE\inc\driver\Topology.h" />
+    <ClInclude Include="..\SPIXE\inc\spixe_driver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SPIXE\src\driver\Graph.cpp" />
+    <ClCompile Include="..\SPIXE\src\driver\Node.cpp" />
+    <ClCompile Include="..\SPIXE\src\driver\Nodes.cpp" />
+    <ClCompile Include="..\SPIXE\src\driver\Observer.cpp" />
+    <ClCompile Include="..\SPIXE\src\driver\Population.cpp" />
+    <ClCompile Include="..\SPIXE\src\driver\Topology.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{03C149CF-55A1-4F91-92B8-9F56BF6C6671}</ProjectGuid>
@@ -75,26 +90,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_Driver\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_Driver\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_Driver\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_Driver\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

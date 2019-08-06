@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClInclude Include="..\SPIXE\inc\spixe_user.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SPIXE\src\user\Communication.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2F5180FB-446D-46FF-AA26-2CC581B98346}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,26 +78,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_User\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_User\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_User\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\SPIXE_User\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

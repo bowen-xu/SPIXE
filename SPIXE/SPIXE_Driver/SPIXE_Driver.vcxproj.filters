@@ -15,8 +15,49 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SPIXE\inc\testsuites\spixe_driver.h">
+    <ClInclude Include="..\SPIXE\inc\driver\Graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\Nodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\Topology.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\Population.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\Observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\spixe_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\driver\spixe_driver_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SPIXE\src\driver\Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SPIXE\src\driver\Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SPIXE\src\driver\Nodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SPIXE\src\driver\Topology.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SPIXE\src\driver\Population.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SPIXE\src\driver\Observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

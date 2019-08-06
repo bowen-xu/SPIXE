@@ -18,5 +18,13 @@
     <ClInclude Include="..\SPIXE\inc\spixe_kernel.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\SPIXE\inc\kernel\Sdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SPIXE\src\kernel\Sdr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

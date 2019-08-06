@@ -73,29 +73,29 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)SPIXE\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\Testsuites\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;F:\GoogleTest\inc;$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;F:\GoogleTest\lib\$(Platform)\$(Configuration)\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)SPIXE\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\Testsuites\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;F:\GoogleTest\inc;$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;F:\GoogleTest\lib\$(Platform)\$(Configuration)\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)SPIXE\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\Testsuites\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;F:\GoogleTest\inc;$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;F:\GoogleTest\lib\$(Platform)\$(Configuration)\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)SPIXE\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)SPIXE\obj\$(Platform)\$(Configuration)\Testsuites\</IntDir>
-    <IncludePath>$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>F:\boost_cpplib\boost_1_68_0;F:\GoogleTest\inc;$(SolutionDir)SPIXE\inc\testsuites\;$(SolutionDir)SPIXE\inc\driver\;$(SolutionDir)SPIXE\inc\kernel\;$(SolutionDir)SPIXE\inc\user\;$(SolutionDir)SPIXE\inc\;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\boost_cpplib\boost_1_68_0\stage\lib\;F:\GoogleTest\lib\$(Platform)\$(Configuration)\;$(SolutionDir)SPIXE\lib\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,7 +108,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -122,7 +122,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -140,7 +140,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -158,11 +158,15 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SPIXE_Driver.lib;SPIXE_Kernel.lib;SPIXE_User.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\SPIXE\src\testsuites\main.cpp" />
+    <ClCompile Include="..\SPIXE\src\testsuites\TestGraph.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SPIXE\inc\testsuites\Testsuites.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
